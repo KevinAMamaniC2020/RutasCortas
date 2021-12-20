@@ -5,7 +5,7 @@ public class FWarshall {
 
 	public static void main(String[] args) {
 	
-	 AllPairShortesPath a = new AllPairShortesPath();
+	 VerificacionCaminos a = new VerificacionCaminos();
 	 
 	 						/* 		 A,    B,      C,	   D,	 E,	   F,	 G,	   H,    I,    J,	  K,     L,    M,	  N,   O , 	   P,    Q,     R,    S,    T,	  U,   V*/	
      int AQPCenter[][] = { /*A*/{    0,  399, a.INF,a.INF,a.INF,a.INF,a.INF,a.INF,a.INF,a.INF, a.INF,	595,a.INF,a.INF,a.INF,a.INF ,a.INF, a.INF,a.INF,a.INF,a.INF,a.INF},
