@@ -1,4 +1,4 @@
-//@autor:Geek
+//@fuente:GeeksForGeeks
 public class BFord {
 
 	static void BellmanFord(int graph[][], int V, int E, int src)
